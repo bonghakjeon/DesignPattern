@@ -1,6 +1,18 @@
 // 디자인 패턴 "ProtoType" - 프로그램 실행 중에 만든 원본 객체 중에서 하나를 골라 새로운 복사본 객체 생성 및 원본 객체에 상태값을 복사(깊은복사) 해주는 패턴이다. 
 // 이 때, 원본이 되는 객체와 복사본이 되는 객체의 상태값은 완전히 독립되어 있어서 서로 영향을 주지 않는다. (서로 다른 메모리 공간 점유)
 // 이를 깊은복사가 되었다고 한다.
+
+// TODO : 깊은 복사 VS 얕은 복사 구현 (2024.02.22 jbh)
+// 참고 URL - https://cwkcw.tistory.com/389
+// 참고 2 URL - https://m.blog.naver.com/adonise007/220578209008
+// 참고 2 URL 주의사항
+// - 2.1 Shallow Copy 참고 이미지와 2.2 Deep Copy 참고 이미지가 서로 정반대로 되어 있으므로 해당 이미지가 헷갈리면
+// 참고 URL - https://cwkcw.tistory.com/389 로 들어가서 이미지를 참고하면 된다.
+
+// 깊은복사 VS 얕은복사 관련 디자인 패턴  
+// "GoF의 Design Pattern - 17. Prototype"
+// 유튜브 참고 URL - https://youtu.be/UPv8u9ndqAs?si=uoB7arIdDd4EGhuJ
+
 package DesignPattern.ProtoType;
 
 public class MainEntry {
